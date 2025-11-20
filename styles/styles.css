@@ -3,17 +3,25 @@ body{
     color: white;
   font-family: "Rubik", sans-serif, light;
   font-optical-sizing: 18px;
-  margin: 200px;
+  margin: 100px;
+  padding: 10px;
     
+}
+
+.dashboard-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px;
+  max-width: 60%;
+  margin: 50px auto;
 }
 
 /*-------------------------- Jeremy -----------------*/
 .container1{
   display:grid;
+  grid-row: span 2;
   justify-content: left;
   border-radius: 25px;
-  width: 250px;
-  height:500px;
   background:hsl(235, 46%, 20%); 
 }
 
@@ -22,7 +30,7 @@ body{
   text-align: left;
   border-radius: 25px;
   width: 200px;
-  height: 290px;
+  height: 320px;
   background: hsl(246, 80%, 60%)
   
 }
@@ -43,6 +51,7 @@ body{
 
 /*------------------WORK------------------------ */
 .container2 {
+  
   background-color: hsl(15, 100%, 70%); 
   border-radius: 25px;
   width: 300px;
@@ -111,8 +120,8 @@ body{
 .container3 {
   background-color: hsl(145, 58%, 55%); 
   border-radius: 25px;
-  width: 300px;
-  height: 280px;
+ width: 300px;
+  height: 280px; 
   position: relative;
   padding-top: 20px;
   overflow: hidden;
@@ -134,7 +143,7 @@ body{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;                           /* sticks to bottom */
+  bottom: 0;                           
   height: 200px;
   border-radius: 25px;
   padding: 20px;
@@ -177,7 +186,7 @@ body{
   background-color: hsl(195, 74%, 62%); 
   border-radius: 25px;
   width: 300px;
-  height: 280px;
+  height: 280px; 
   position: relative;
   padding-top: 20px;
   overflow: hidden;
@@ -199,7 +208,7 @@ body{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;                           /* sticks to bottom */
+  bottom: 0;                           
   height: 200px;
   border-radius: 25px;
   padding: 20px;
@@ -243,8 +252,8 @@ body{
 .container5 {
   background-color: hsl(264, 64%, 52%); 
   border-radius: 25px;
-  width: 300px;
-  height: 280px;
+ width: 300px;
+  height: 280px; 
   position: relative;
   padding-top: 20px;
   overflow: hidden;
@@ -266,7 +275,7 @@ body{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;                           /* sticks to bottom */
+  bottom: 0;                           
   height: 200px;
   border-radius: 25px;
   padding: 20px;
@@ -310,7 +319,7 @@ body{
   background-color: hsl(348, 100%, 68%); 
   border-radius: 25px;
   width: 300px;
-  height: 280px;
+  height: 280px; 
   position: relative;
   padding-top: 20px;
   overflow: hidden;
@@ -332,7 +341,7 @@ body{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;                           /* sticks to bottom */
+  bottom: 0;                          
   height: 200px;
   border-radius: 25px;
   padding: 20px;
@@ -371,78 +380,15 @@ body{
   color: hsl(236, 100%, 87%);
 }
 
-/*-------------------------Study ------------------------*/
-.container6 {
-  background-color: hsl(348, 100%, 68%); 
-  border-radius: 25px;
-  width: 300px;
-  height: 280px;
-  position: relative;
-  padding-top: 20px;
-  overflow: hidden;
-  font-family: system-ui, sans-serif;
-}
 
-/* suitcase icon */
-.study-img {
-  position: absolute;
-  right: 20px;
-  top: -10px;
-  width: 70px;
-  opacity: 0.4;
-}
 
-/* dark card */
-.box6 {
-  background: hsl(235, 46%, 20%);      
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;                           /* sticks to bottom */
-  height: 200px;
-  border-radius: 25px;
-  padding: 20px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* title + dots */
-.box6-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.title {
-  font-weight: 600;
-}
-
-.dots {
-  font-size: 22px;
-  color: hsl(236, 100%, 87%);
-}
-
-/* big hours text */
-.hours {
-  font-size: 40px;
-  font-weight: 500;
-  margin: 15px 0 5px;
-}
-
-/* small “Last Week – …” text */
-.previous {
-  font-size: 14px;
-  color: hsl(236, 100%, 87%);
-}
 
   /*--------------------------Self Care--------------------*/
   .container7 {
   background-color: hsl(43, 84%, 65%); 
   border-radius: 25px;
   width: 300px;
-  height: 280px;
+  height: 280px; 
   position: relative;
   padding-top: 20px;
   overflow: hidden;
@@ -464,7 +410,7 @@ body{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;                           /* sticks to bottom */
+  bottom: 0;                           
   height: 200px;
   border-radius: 25px;
   padding: 20px;
@@ -503,68 +449,3 @@ body{
   color: hsl(236, 100%, 87%);
 }
 
-/*---------------------------EXCERISE-------------------------*/
-.container3 {
-  background-color: hsl(145, 58%, 55%); 
-  border-radius: 25px;
-  width: 300px;
-  height: 280px;
-  position: relative;
-  padding-top: 20px;
-  overflow: hidden;
-  font-family: system-ui, sans-serif;
-}
-
-/* suitcase icon */
-.exercise-img {
-  position: absolute;
-  right: 20px;
-  top: -10px;
-  width: 70px;
-  opacity: 0.4;
-}
-
-/* dark card */
-.box3 {
-  background: hsl(235, 46%, 20%);      
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;                           /* sticks to bottom */
-  height: 200px;
-  border-radius: 25px;
-  padding: 20px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* title + dots */
-.box3-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.title {
-  font-weight: 600;
-}
-
-.dots {
-  font-size: 22px;
-  color: hsl(236, 100%, 87%);
-}
-
-/* big hours text */
-.hours {
-  font-size: 40px;
-  font-weight: 500;
-  margin: 15px 0 5px;
-}
-
-/* small “Last Week – …” text */
-.previous {
-  font-size: 14px;
-  color: hsl(236, 100%, 87%);
-}
