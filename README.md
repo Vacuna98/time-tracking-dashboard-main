@@ -6,7 +6,7 @@
 
  // Created a time tracker for Jeremy.
 
-// Person who Peer Reviewed your assignment
+// Person who Peer Reviewed your assignment: Nicolas Gonzaba- Report card and space between cards stretches at larger screen sizes. wrong font and font size, mobile breakpoint is too small (only starts at mobile M and doesn't apply to mobile small), no tablet responsiveness, no border on photo, and bg colors on cards slightly poking out behind dark blue.
 
 
 
